@@ -3,10 +3,11 @@ package com.muzi.easychat.websocket;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.extra.spring.SpringUtil;
 import cn.hutool.json.JSONUtil;
-import com.muzi.easychat.websocket.domin.enums.WSReqTypeEnum;
-import com.muzi.easychat.websocket.domin.vo.req.WSAuthorize;
-import com.muzi.easychat.websocket.domin.vo.req.WSBaseReq;
-import com.muzi.easychat.websocket.service.WebSocketService;
+
+import com.muzi.easychat.user.domain.enums.WSReqTypeEnum;
+import com.muzi.easychat.user.domain.vo.request.ws.WSAuthorize;
+import com.muzi.easychat.user.domain.vo.request.ws.WSBaseReq;
+import com.muzi.easychat.user.service.WebSocketService;
 import io.netty.channel.ChannelHandler.Sharable;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
@@ -34,7 +35,7 @@ public class NettyWebSocketServerHandler extends SimpleChannelInboundHandler<Tex
     public void handlerRemoved(ChannelHandlerContext ctx) throws Exception {
         userOffLine(ctx);
     }
-
+    
     /**
      * 取消绑定
      *
@@ -106,4 +107,6 @@ public class NettyWebSocketServerHandler extends SimpleChannelInboundHandler<Tex
                 log.info("未知类型");
         }
     }
+
+
 }
