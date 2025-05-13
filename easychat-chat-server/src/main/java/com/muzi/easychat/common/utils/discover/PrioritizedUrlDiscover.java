@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  * Description: 具有优先级的title查询器
- * Author: <a href="https://github.com/zongzibinbin">abin</a>
+ * Author: <a href="https://github.com/MuziGeek">Muzi</a>
  * Date: 2023-05-27
  */
 public class PrioritizedUrlDiscover extends AbstractUrlDiscover {

@@ -56,7 +56,7 @@ import java.util.stream.Collectors;
 
 /**
  * Description: 消息处理类
- * Author: <a href="https://github.com/zongzibinbin">abin</a>
+ * Author: <a href="https://github.com/MuziGeek">Muzi</a>
  * Date: 2023-03-26
  */
 @Service

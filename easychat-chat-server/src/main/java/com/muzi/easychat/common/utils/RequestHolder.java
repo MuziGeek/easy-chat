@@ -4,7 +4,7 @@ import com.muzi.easychat.common.domain.dto.RequestInfo;
 
 /**
  * Description: 请求上下文
- * Author: <a href="https://github.com/zongzibinbin">abin</a>
+ * Author: <a href="https://github.com/MuziGeek">Muzi</a>
  * Date: 2023-04-05
  */
 public class RequestHolder {

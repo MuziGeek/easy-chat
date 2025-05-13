@@ -5,7 +5,7 @@ import org.jsoup.nodes.Document;
 
 /**
  * Description: 针对微信公众号文章的标题获取类
- * Author: <a href="https://github.com/zongzibinbin">abin</a>
+ * Author: <a href="https://github.com/MuziGeek">Muzi</a>
  * Date: 2023-05-27
  */
 public class WxUrlDiscover extends AbstractUrlDiscover {

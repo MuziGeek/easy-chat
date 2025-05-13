@@ -20,7 +20,7 @@ import java.util.stream.Collectors;
 
 /**
  * Description: 用户适配器
- * Author: <a href="https://github.com/zongzibinbin">abin</a>
+ * Author: <a href="https://github.com/MuziGeek">Muzi</a>
  * Date: 2023-03-19
  */
 @Slf4j

@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * Description: 消息相关缓存
- * Author: <a href="https://github.com/zongzibinbin">abin</a>
+ * Author: <a href="https://github.com/MuziGeek">Muzi</a>
  * Date: 2023-03-27
  */
 @Component
