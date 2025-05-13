@@ -28,7 +28,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Description: 处理与微信api的交互逻辑
- * Author: <a href="https://github.com/zongzibinbin">abin</a>
+ * Author: <a href="https://github.com/MuziGeek">Muzi</a>
  * Date: 2023-03-19
  */
 @Service

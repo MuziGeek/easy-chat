@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 
 /**
  * Description: 上传url请求入参
- * Author: <a href="https://github.com/zongzibinbin">muzi</a>
+ * Author: <a href="https://github.com/MuziGeek">muzi</a>
  * Date: 2023-03-23
  */
 @Data

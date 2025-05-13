@@ -10,7 +10,7 @@ import java.io.Serializable;
 
 /**
  * Description: 视频消息入参
- * Author: <a href="https://github.com/zongzibinbin">abin</a>
+ * Author: <a href="https://github.com/MuziGeek">Muzi</a>
  * Date: 2023-06-04
  */
 @EqualsAndHashCode(callSuper = true)

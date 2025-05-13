@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * Description: 将扫码成功的信息发送给对应的用户,等待授权
- * Author: <a href="https://github.com/zongzibinbin">abin</a>
+ * Author: <a href="https://github.com/MuziGeek">Muzi</a>
  * Date: 2023-08-12
  */
 @RocketMQMessageListener(consumerGroup = MQConstant.SCAN_MSG_GROUP, topic = MQConstant.SCAN_MSG_TOPIC, messageModel = MessageModel.BROADCASTING)

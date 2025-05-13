@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * Description: 点赞标记策略类
- * Author: <a href="https://github.com/zongzibinbin">abin</a>
+ * Author: <a href="https://github.com/MuziGeek">Muzi</a>
  * Date: 2023-05-30
  */
 @Component

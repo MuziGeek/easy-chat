@@ -14,7 +14,7 @@ import java.util.Objects;
 
 /**
  * Description: 群成员相关缓存
- * Author: <a href="https://github.com/zongzibinbin">abin</a>
+ * Author: <a href="https://github.com/MuziGeek">Muzi</a>
  * Date: 2023-03-27
  */
 @Component

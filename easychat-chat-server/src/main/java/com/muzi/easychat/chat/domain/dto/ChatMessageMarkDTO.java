@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 
 /**
  * Description: 消息标记请求
- * Author: <a href="https://github.com/zongzibinbin">abin</a>
+ * Author: <a href="https://github.com/MuziGeek">Muzi</a>
  * Date: 2023-03-29
  */
 @Data

@@ -26,7 +26,7 @@ import static com.muzi.easychat.user.domain.vo.response.ws.WSMemberChange.CHANGE
 
 /**
  * Description: 成员适配器
- * Author: <a href="https://github.com/zongzibinbin">abin</a>
+ * Author: <a href="https://github.com/MuziGeek">Muzi</a>
  * Date: 2023-03-26
  */
 @Component

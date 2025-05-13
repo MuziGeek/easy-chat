@@ -31,7 +31,7 @@ import java.util.stream.Collectors;
 
 /**
  * Description: 普通文本消息
- * Author: <a href="https://github.com/zongzibinbin">abin</a>
+ * Author: <a href="https://github.com/MuziGeek">Muzi</a>
  * Date: 2023-06-04
  */
 @Component

@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * Description: 在本地服务上找寻对应channel，将对应用户登陆，并触发所有用户收到上线事件
- * Author: <a href="https://github.com/zongzibinbin">abin</a>
+ * Author: <a href="https://github.com/MuziGeek">Muzi</a>
  * Date: 2023-08-12
  */
 @RocketMQMessageListener(consumerGroup = MQConstant.LOGIN_MSG_GROUP, topic = MQConstant.LOGIN_MSG_TOPIC, messageModel = MessageModel.BROADCASTING)

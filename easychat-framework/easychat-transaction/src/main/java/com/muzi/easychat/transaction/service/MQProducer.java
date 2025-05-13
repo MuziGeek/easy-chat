@@ -8,7 +8,7 @@ import org.springframework.messaging.support.MessageBuilder;
 
 /**
  * Description: 发送mq工具类
- * Author: <a href="https://github.com/zongzibinbin">muzi</a>
+ * Author: <a href="https://github.com/MuziGeek">muzi</a>
  * Date: 2023-08-12
  */
 public class MQProducer {
