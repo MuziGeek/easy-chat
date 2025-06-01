@@ -62,5 +62,16 @@
             </plugin>
         </plugins>
 
+            <resources>
+                <resource>
+                    <directory>src/main/resources</directory>
+                    <filtering>false</filtering> <!-- 禁用过滤 -->
+                    <includes>
+                        <include>**/*.properties</include>
+                        <include>**/*.yml</include>
+                    </includes>
+                </resource>
+            </resources>
+
     </build>
 </project>
