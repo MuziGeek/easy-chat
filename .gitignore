@@ -79,4 +79,6 @@ ChannelBizBrandWallClient.java
 # 敏感配置文件
 easychat-chat-server/src/main/java/resources/application-pro.properties
 easychat-chat-server/src/main/java/resources/application-test.properties
+easychat-chat-server/src/main/resources/application-pro.properties
+easychat-chat-server/src/main/resources/application-test.properties
 
