@@ -76,7 +76,7 @@ ChannelBizBrandWallClient.java
 # yml
 *.yml
 
-# .gitignore 示例（不要忽略配置文件）
+# 敏感配置文件
+easychat-chat-server/src/main/java/resources/application-pro.properties
+easychat-chat-server/src/main/java/resources/application-test.properties
 
-# 但不要忽略 resources 目录下的配置
-!src/main/resources/**
