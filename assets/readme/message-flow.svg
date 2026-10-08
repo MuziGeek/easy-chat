@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">EasyChat 消息链路</title>
+  <desc id="desc">HTTP 接收消息发送请求，MySQL 保存消息与本地调用记录，事务提交后由 RocketMQ 派发，WebSocket 向在线客户端推送。Redis 支持登录、缓存与协调。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 Z" fill="#0f766e"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="390" rx="24" fill="#f4f7fa"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">
+    <g id="diagram-heading" fill="#10243a">
+      <text x="48" y="67" font-size="34" font-weight="700">一条消息，从发送到在线推送</text>
+      <text x="1152" y="64" text-anchor="end" font-size="20" font-weight="600" fill="#50657b">EasyChat / 消息链路</text>
+    </g>
+    <g id="flow-connections" fill="none" stroke="#0f766e" stroke-width="3" marker-end="url(#arrow)">
+      <path d="M 282 208 H 332"/>
+      <path d="M 577 208 H 627"/>
+      <path d="M 872 208 H 922"/>
+    </g>
+    <g id="http-node">
+      <rect x="48" y="122" width="234" height="172" rx="14" fill="#ffffff" stroke="#d4dde8" stroke-width="2"/>
+      <path d="M 78 156 H 108 M 78 168 H 98" fill="none" stroke="#0f766e" stroke-width="4" stroke-linecap="round"/>
+      <text x="78" y="224" font-size="46" font-weight="700" fill="#10243a">HTTP</text>
+      <text x="78" y="265" font-size="25" fill="#50657b">校验发送请求</text>
+    </g>
+    <g id="database-node">
+      <rect x="343" y="122" width="234" height="172" rx="14" fill="#ffffff" stroke="#d4dde8" stroke-width="2"/>
+      <path d="M 374 153 H 404 M 374 165 H 404 M 374 177 H 404" fill="none" stroke="#0f766e" stroke-width="4" stroke-linecap="round"/>
+      <text x="373" y="224" font-size="46" font-weight="700" fill="#10243a">MySQL</text>
+      <text x="373" y="265" font-size="25" fill="#50657b">保存消息与记录</text>
+    </g>
+    <g id="queue-node">
+      <rect x="638" y="122" width="234" height="172" rx="14" fill="#ffffff" stroke="#d4dde8" stroke-width="2"/>
+      <path d="M 670 153 H 700 M 670 165 H 700 M 670 177 H 700" fill="none" stroke="#0f766e" stroke-width="4" stroke-dasharray="4 8" stroke-linecap="round"/>
+      <text x="668" y="224" font-size="36" font-weight="700" fill="#10243a">RocketMQ</text>
+      <text x="668" y="265" font-size="25" fill="#50657b">事务后派发</text>
+    </g>
+    <g id="websocket-node">
+      <rect x="933" y="122" width="219" height="172" rx="14" fill="#10243a"/>
+      <path d="M 963 153 H 993 M 985 145 L 993 153 L 985 161" fill="none" stroke="#5eead4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="963" y="224" font-size="34" font-weight="700" fill="#ffffff">WebSocket</text>
+      <text x="963" y="265" font-size="25" fill="#c7d7e7">推送在线连接</text>
+    </g>
+    <g id="supporting-context">
+      <path d="M 48 329 H 1152" stroke="#d4dde8" stroke-width="2"/>
+      <circle cx="55" cy="357" r="5" fill="#0f766e"/>
+      <text x="72" y="365" font-size="23" fill="#50657b">Redis：登录、缓存与协调</text>
+      <text x="1152" y="365" text-anchor="end" font-size="23" fill="#50657b">历史消息通过 HTTP 分页读取</text>
+    </g>
+  </g>
+</svg>
